@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20240305064107"
+  },
+  "applications": "*",
+  "entityTableName": "student",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthday",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Student",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}
